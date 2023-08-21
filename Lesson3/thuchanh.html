@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navigation-1{
+            display: flex;
+            background-color: antiquewhite;
+            padding: 8px;
+            border: 1px solid black;
+            justify-content: space-between;
+        }
+        .logo-1{
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px 16px;
+            background-color: lightgreen;
+            height: 20px;
+        }
+        .box-1{
+            display: flex;
+        }
+        .item-box-1{
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+            background-color: pink;
+        }
+        .border-none{
+            border-left: none;
+            border-right: none;
+        }
+        .border-none-left{
+            border-left: none;
+        }
+        .navigation-2{
+            margin-top: 10px;
+            display: flex;
+            background-color: antiquewhite;
+            padding: 8px;
+            justify-content: space-between;
+            border: 1px solid black;
+        }
+        .page1{
+            display: flex;
+            align-items: center;
+        }
+        .page2{
+            display: flex;
+            align-items: center;
+        }
+        .page3{
+            display: flex;
+            align-items: center;
+        }
+        h3{
+            margin-left: 10px;
+        }
+        .page2-item{
+            margin-right: 20px;
+        }
+        .navigation-3{
+            margin-top: 10px;
+            display: flex;
+            background-color: antiquewhite;
+            padding: 8px;
+            justify-content: space-between;
+            border: 1px solid black;
+        }
+        .item-box-2{
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+            background-color: rgb(70, 199, 138);
+        }
+        .item-box-3{
+            background-color: rgb(70, 199, 138);
+            border-radius: 100px;
+            width: 40px;
+            height: 40px;
+        }
+        .image{
+            width: 30px;
+            height: 30px;
+            margin-right: 20px;
+        }
+        .item-page2{
+            width: 40px;
+            height: 60px;
+            align-items: center;
+            text-align: center;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation-1">
+        <div class="logo-1">
+            Logo
+        </div>
+        <div class="box-1">
+            <div class="item-box-1">About</div>
+            <div class="item-box-1 border-none">Home</div>
+            <div class="item-box-1">Contact</div>
+        </div>
+    </div>
+    <div class="navigation-2">
+        <div class="page1">
+            <div class="logo-1">Logo</div>
+            <h3>Brand name</h3>
+        </div>
+        <div class="page2">
+            <div class="page2-item">Home</div>
+            <div class="page2-item">About</div>
+            <div class="page2-item">Contact</div>
+            <div class="page2-item item-box-2">Login</div>
+        </div>
+    </div>
+    <div class="navigation-3">
+        <div class="page1">
+            <div class="logo-1">Logo</div>
+            <h3>Brand name</h3>
+        </div>
+        <div class="page2">
+            <div class="page2-item">Home</div>
+            <div class="page2-item item-box-3"></div>
+            <div class="page2-item">Login</div>
+        </div>
+    </div>
+    <div class="navigation-3">
+        <div class="page1">
+            <div class="item-box-3"></div>
+        </div>
+        <div class="page2">
+            <div class="item-page2">
+                <img src="./images/icons8-home-50.png" alt="" class="image">
+                <p>Home</p>
+            </div>
+            <div class="item-page2">
+                <img src="./images/icons8-person-50.png" alt="" class="image">
+                <p>Friends</p>
+            </div>
+            <div class="item-page2">
+                <img src="./images/icons8-market-50.png" alt="" class="image">
+                <p>Market</p>
+            </div>
+        </div>
+        <div class="page3">
+            <img src="./images/icons8-bell-50.png" alt="" class="image">
+            <div class="page2-item item-box-3"></div>
+            <div class="page2-item">Your name</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -10,10 +10,13 @@
     max-width: 400px;
     min-width: 200px;
     width: 500px;
-    opacity: 0.5;
-    scale: 1;
-    transform: translate(40px, 50px) rotate(90deg);
+    
     /* transform: rotate(90deg); */
     /* transform: scale(1.5); */
     /* /* transform: skew(10deg, 10deg); */
+}
+.box:hover{
+    opacity: 0.5;
+    scale: 1;
+    transform: translate(40px, 50px) rotate(90deg);
 }
